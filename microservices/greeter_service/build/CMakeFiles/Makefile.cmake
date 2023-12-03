@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "/Users/nikitatabakaev/Documents/grpc-astra-minimal/cmake/GrpcTargets.cmake"
   "/Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/CMakeLists.txt"
   "CMakeFiles/3.27.9/CMakeCCompiler.cmake"
   "CMakeFiles/3.27.9/CMakeCXXCompiler.cmake"
@@ -167,5 +168,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/greeter_service_lib.dir/DependInfo.cmake"
+  "CMakeFiles/greeter_service1_lib.dir/DependInfo.cmake"
+  "CMakeFiles/greeter_service_objs.dir/DependInfo.cmake"
   "CMakeFiles/greeter_service.dir/DependInfo.cmake"
   )

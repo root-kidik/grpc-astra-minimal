@@ -69,37 +69,10 @@ include CMakeFiles/greeter_service.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/greeter_service.dir/flags.make
 
-greeter_service.pb.cc: /Users/nikitatabakaev/Documents/grpc-astra-minimal/protos/greeter_service.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating greeter_service.pb.cc, greeter_service.pb.h, greeter_service.grpc.pb.cc, greeter_service.grpc.pb.h"
-	/opt/homebrew/bin/protoc-25.1.0 --grpc_out /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build --cpp_out /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build -I /Users/nikitatabakaev/Documents/grpc-astra-minimal/protos --plugin=protoc-gen-grpc="/opt/homebrew/bin/grpc_cpp_plugin" /Users/nikitatabakaev/Documents/grpc-astra-minimal/protos/greeter_service.proto
-
-greeter_service.pb.h: greeter_service.pb.cc
-	@$(CMAKE_COMMAND) -E touch_nocreate greeter_service.pb.h
-
-greeter_service.grpc.pb.cc: greeter_service.pb.cc
-	@$(CMAKE_COMMAND) -E touch_nocreate greeter_service.grpc.pb.cc
-
-greeter_service.grpc.pb.h: greeter_service.pb.cc
-	@$(CMAKE_COMMAND) -E touch_nocreate greeter_service.grpc.pb.h
-
-CMakeFiles/greeter_service.dir/greeter_service.cpp.o: CMakeFiles/greeter_service.dir/flags.make
-CMakeFiles/greeter_service.dir/greeter_service.cpp.o: /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/greeter_service.cpp
-CMakeFiles/greeter_service.dir/greeter_service.cpp.o: CMakeFiles/greeter_service.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/greeter_service.dir/greeter_service.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/greeter_service.dir/greeter_service.cpp.o -MF CMakeFiles/greeter_service.dir/greeter_service.cpp.o.d -o CMakeFiles/greeter_service.dir/greeter_service.cpp.o -c /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/greeter_service.cpp
-
-CMakeFiles/greeter_service.dir/greeter_service.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/greeter_service.dir/greeter_service.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/greeter_service.cpp > CMakeFiles/greeter_service.dir/greeter_service.cpp.i
-
-CMakeFiles/greeter_service.dir/greeter_service.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/greeter_service.dir/greeter_service.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/greeter_service.cpp -o CMakeFiles/greeter_service.dir/greeter_service.cpp.s
-
 CMakeFiles/greeter_service.dir/main.cpp.o: CMakeFiles/greeter_service.dir/flags.make
 CMakeFiles/greeter_service.dir/main.cpp.o: /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/main.cpp
 CMakeFiles/greeter_service.dir/main.cpp.o: CMakeFiles/greeter_service.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/greeter_service.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/greeter_service.dir/main.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/greeter_service.dir/main.cpp.o -MF CMakeFiles/greeter_service.dir/main.cpp.o.d -o CMakeFiles/greeter_service.dir/main.cpp.o -c /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/main.cpp
 
 CMakeFiles/greeter_service.dir/main.cpp.i: cmake_force
@@ -110,51 +83,43 @@ CMakeFiles/greeter_service.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/greeter_service.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/main.cpp -o CMakeFiles/greeter_service.dir/main.cpp.s
 
-CMakeFiles/greeter_service.dir/greeter_service.pb.cc.o: CMakeFiles/greeter_service.dir/flags.make
-CMakeFiles/greeter_service.dir/greeter_service.pb.cc.o: greeter_service.pb.cc
-CMakeFiles/greeter_service.dir/greeter_service.pb.cc.o: CMakeFiles/greeter_service.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/greeter_service.dir/greeter_service.pb.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/greeter_service.dir/greeter_service.pb.cc.o -MF CMakeFiles/greeter_service.dir/greeter_service.pb.cc.o.d -o CMakeFiles/greeter_service.dir/greeter_service.pb.cc.o -c /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/greeter_service.pb.cc
-
-CMakeFiles/greeter_service.dir/greeter_service.pb.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/greeter_service.dir/greeter_service.pb.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/greeter_service.pb.cc > CMakeFiles/greeter_service.dir/greeter_service.pb.cc.i
-
-CMakeFiles/greeter_service.dir/greeter_service.pb.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/greeter_service.dir/greeter_service.pb.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/greeter_service.pb.cc -o CMakeFiles/greeter_service.dir/greeter_service.pb.cc.s
-
-CMakeFiles/greeter_service.dir/greeter_service.grpc.pb.cc.o: CMakeFiles/greeter_service.dir/flags.make
-CMakeFiles/greeter_service.dir/greeter_service.grpc.pb.cc.o: greeter_service.grpc.pb.cc
-CMakeFiles/greeter_service.dir/greeter_service.grpc.pb.cc.o: CMakeFiles/greeter_service.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/greeter_service.dir/greeter_service.grpc.pb.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/greeter_service.dir/greeter_service.grpc.pb.cc.o -MF CMakeFiles/greeter_service.dir/greeter_service.grpc.pb.cc.o.d -o CMakeFiles/greeter_service.dir/greeter_service.grpc.pb.cc.o -c /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/greeter_service.grpc.pb.cc
-
-CMakeFiles/greeter_service.dir/greeter_service.grpc.pb.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/greeter_service.dir/greeter_service.grpc.pb.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/greeter_service.grpc.pb.cc > CMakeFiles/greeter_service.dir/greeter_service.grpc.pb.cc.i
-
-CMakeFiles/greeter_service.dir/greeter_service.grpc.pb.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/greeter_service.dir/greeter_service.grpc.pb.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/greeter_service.grpc.pb.cc -o CMakeFiles/greeter_service.dir/greeter_service.grpc.pb.cc.s
-
 # Object files for target greeter_service
 greeter_service_OBJECTS = \
-"CMakeFiles/greeter_service.dir/greeter_service.cpp.o" \
-"CMakeFiles/greeter_service.dir/main.cpp.o" \
-"CMakeFiles/greeter_service.dir/greeter_service.pb.cc.o" \
-"CMakeFiles/greeter_service.dir/greeter_service.grpc.pb.cc.o"
+"CMakeFiles/greeter_service.dir/main.cpp.o"
 
 # External object files for target greeter_service
 greeter_service_EXTERNAL_OBJECTS =
 
-greeter_service: CMakeFiles/greeter_service.dir/greeter_service.cpp.o
 greeter_service: CMakeFiles/greeter_service.dir/main.cpp.o
-greeter_service: CMakeFiles/greeter_service.dir/greeter_service.pb.cc.o
-greeter_service: CMakeFiles/greeter_service.dir/greeter_service.grpc.pb.cc.o
 greeter_service: CMakeFiles/greeter_service.dir/build.make
+greeter_service: libgreeter_service_objs.a
+greeter_service: libgreeter_service_lib.a
+greeter_service: libgreeter_service1_lib.a
 greeter_service: /opt/homebrew/lib/libgrpc++_reflection.1.59.3.dylib
 greeter_service: /opt/homebrew/lib/libgrpc++.1.59.3.dylib
+greeter_service: /opt/homebrew/lib/libgrpc.36.0.0.dylib
+greeter_service: /opt/homebrew/lib/libre2.11.0.0.dylib
+greeter_service: /opt/homebrew/lib/libupb_json_lib.36.0.0.dylib
+greeter_service: /opt/homebrew/lib/libupb_textformat_lib.36.0.0.dylib
+greeter_service: /opt/homebrew/lib/libupb_collections_lib.36.0.0.dylib
+greeter_service: /opt/homebrew/lib/libupb.36.0.0.dylib
+greeter_service: /opt/homebrew/lib/libutf8_range_lib.36.0.0.dylib
+greeter_service: /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/lib/libz.tbd
+greeter_service: /opt/homebrew/lib/libcares.2.8.1.dylib
+greeter_service: /opt/homebrew/lib/libgpr.36.0.0.dylib
+greeter_service: /opt/homebrew/lib/libabsl_random_distributions.2308.0.0.dylib
+greeter_service: /opt/homebrew/lib/libabsl_random_seed_sequences.2308.0.0.dylib
+greeter_service: /opt/homebrew/lib/libabsl_random_internal_pool_urbg.2308.0.0.dylib
+greeter_service: /opt/homebrew/lib/libabsl_random_internal_randen.2308.0.0.dylib
+greeter_service: /opt/homebrew/lib/libabsl_random_internal_randen_hwaes.2308.0.0.dylib
+greeter_service: /opt/homebrew/lib/libabsl_random_internal_randen_hwaes_impl.2308.0.0.dylib
+greeter_service: /opt/homebrew/lib/libabsl_random_internal_randen_slow.2308.0.0.dylib
+greeter_service: /opt/homebrew/lib/libabsl_random_internal_platform.2308.0.0.dylib
+greeter_service: /opt/homebrew/lib/libabsl_random_internal_seed_material.2308.0.0.dylib
+greeter_service: /opt/homebrew/lib/libabsl_random_seed_gen_exception.2308.0.0.dylib
+greeter_service: /opt/homebrew/lib/libssl.dylib
+greeter_service: /opt/homebrew/lib/libcrypto.dylib
+greeter_service: /opt/homebrew/lib/libaddress_sorting.36.0.0.dylib
 greeter_service: /opt/homebrew/lib/libprotobuf.25.1.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_log_internal_check_op.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_leak_check.2308.0.0.dylib
@@ -168,33 +133,24 @@ greeter_service: /opt/homebrew/lib/libabsl_log_internal_proto.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_log_internal_log_sink_set.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_log_sink.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_log_entry.2308.0.0.dylib
-greeter_service: /opt/homebrew/lib/libabsl_log_initialize.2308.0.0.dylib
-greeter_service: /opt/homebrew/lib/libabsl_log_globals.2308.0.0.dylib
-greeter_service: /opt/homebrew/lib/libabsl_log_internal_globals.2308.0.0.dylib
-greeter_service: /opt/homebrew/lib/libgrpc.36.0.0.dylib
-greeter_service: /opt/homebrew/lib/libabsl_statusor.2308.0.0.dylib
-greeter_service: /opt/homebrew/lib/libre2.11.0.0.dylib
-greeter_service: /opt/homebrew/lib/libupb_json_lib.36.0.0.dylib
-greeter_service: /opt/homebrew/lib/libupb_textformat_lib.36.0.0.dylib
-greeter_service: /opt/homebrew/lib/libupb_collections_lib.36.0.0.dylib
-greeter_service: /opt/homebrew/lib/libupb.36.0.0.dylib
-greeter_service: /opt/homebrew/lib/libutf8_range_lib.36.0.0.dylib
-greeter_service: /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/lib/libz.tbd
-greeter_service: /opt/homebrew/lib/libcares.2.8.1.dylib
-greeter_service: /opt/homebrew/lib/libgpr.36.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_flags.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_flags_internal.2308.0.0.dylib
+greeter_service: /opt/homebrew/lib/libabsl_flags_marshalling.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_flags_reflection.2308.0.0.dylib
-greeter_service: /opt/homebrew/lib/libabsl_raw_hash_set.2308.0.0.dylib
-greeter_service: /opt/homebrew/lib/libabsl_hash.2308.0.0.dylib
-greeter_service: /opt/homebrew/lib/libabsl_city.2308.0.0.dylib
-greeter_service: /opt/homebrew/lib/libabsl_low_level_hash.2308.0.0.dylib
-greeter_service: /opt/homebrew/lib/libabsl_hashtablez_sampler.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_flags_config.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_flags_program_name.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_flags_private_handle_accessor.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_flags_commandlineflag.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_flags_commandlineflag_internal.2308.0.0.dylib
+greeter_service: /opt/homebrew/lib/libabsl_log_initialize.2308.0.0.dylib
+greeter_service: /opt/homebrew/lib/libabsl_log_globals.2308.0.0.dylib
+greeter_service: /opt/homebrew/lib/libabsl_log_internal_globals.2308.0.0.dylib
+greeter_service: /opt/homebrew/lib/libabsl_raw_hash_set.2308.0.0.dylib
+greeter_service: /opt/homebrew/lib/libabsl_hash.2308.0.0.dylib
+greeter_service: /opt/homebrew/lib/libabsl_city.2308.0.0.dylib
+greeter_service: /opt/homebrew/lib/libabsl_low_level_hash.2308.0.0.dylib
+greeter_service: /opt/homebrew/lib/libabsl_hashtablez_sampler.2308.0.0.dylib
+greeter_service: /opt/homebrew/lib/libabsl_statusor.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_status.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_cord.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_cordz_info.2308.0.0.dylib
@@ -206,6 +162,8 @@ greeter_service: /opt/homebrew/lib/libabsl_crc_cord_state.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_crc32c.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_crc_internal.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_crc_cpu_detect.2308.0.0.dylib
+greeter_service: /opt/homebrew/lib/libabsl_bad_optional_access.2308.0.0.dylib
+greeter_service: /opt/homebrew/lib/libabsl_str_format_internal.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_strerror.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_synchronization.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_stacktrace.2308.0.0.dylib
@@ -216,36 +174,20 @@ greeter_service: /opt/homebrew/lib/libabsl_graphcycles_internal.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_kernel_timeout_internal.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_malloc_internal.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_time.2308.0.0.dylib
-greeter_service: /opt/homebrew/lib/libabsl_civil_time.2308.0.0.dylib
-greeter_service: /opt/homebrew/lib/libabsl_time_zone.2308.0.0.dylib
-greeter_service: /opt/homebrew/lib/libabsl_bad_variant_access.2308.0.0.dylib
-greeter_service: /opt/homebrew/lib/libabsl_flags_marshalling.2308.0.0.dylib
-greeter_service: /opt/homebrew/lib/libabsl_str_format_internal.2308.0.0.dylib
-greeter_service: /opt/homebrew/lib/libabsl_random_distributions.2308.0.0.dylib
-greeter_service: /opt/homebrew/lib/libabsl_random_seed_sequences.2308.0.0.dylib
-greeter_service: /opt/homebrew/lib/libabsl_random_internal_pool_urbg.2308.0.0.dylib
-greeter_service: /opt/homebrew/lib/libabsl_random_internal_randen.2308.0.0.dylib
-greeter_service: /opt/homebrew/lib/libabsl_random_internal_randen_hwaes.2308.0.0.dylib
-greeter_service: /opt/homebrew/lib/libabsl_random_internal_randen_hwaes_impl.2308.0.0.dylib
-greeter_service: /opt/homebrew/lib/libabsl_random_internal_randen_slow.2308.0.0.dylib
-greeter_service: /opt/homebrew/lib/libabsl_random_internal_platform.2308.0.0.dylib
-greeter_service: /opt/homebrew/lib/libabsl_random_internal_seed_material.2308.0.0.dylib
-greeter_service: /opt/homebrew/lib/libabsl_bad_optional_access.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_strings.2308.0.0.dylib
-greeter_service: /opt/homebrew/lib/libabsl_int128.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_string_view.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_throw_delegate.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_strings_internal.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_base.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_spinlock_wait.2308.0.0.dylib
+greeter_service: /opt/homebrew/lib/libabsl_int128.2308.0.0.dylib
+greeter_service: /opt/homebrew/lib/libabsl_civil_time.2308.0.0.dylib
+greeter_service: /opt/homebrew/lib/libabsl_time_zone.2308.0.0.dylib
+greeter_service: /opt/homebrew/lib/libabsl_bad_variant_access.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_raw_logging_internal.2308.0.0.dylib
 greeter_service: /opt/homebrew/lib/libabsl_log_severity.2308.0.0.dylib
-greeter_service: /opt/homebrew/lib/libabsl_random_seed_gen_exception.2308.0.0.dylib
-greeter_service: /opt/homebrew/lib/libssl.dylib
-greeter_service: /opt/homebrew/lib/libcrypto.dylib
-greeter_service: /opt/homebrew/lib/libaddress_sorting.36.0.0.dylib
 greeter_service: CMakeFiles/greeter_service.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable greeter_service"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable greeter_service"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/greeter_service.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -256,10 +198,7 @@ CMakeFiles/greeter_service.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/greeter_service.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/greeter_service.dir/clean
 
-CMakeFiles/greeter_service.dir/depend: greeter_service.grpc.pb.cc
-CMakeFiles/greeter_service.dir/depend: greeter_service.grpc.pb.h
-CMakeFiles/greeter_service.dir/depend: greeter_service.pb.cc
-CMakeFiles/greeter_service.dir/depend: greeter_service.pb.h
+CMakeFiles/greeter_service.dir/depend:
 	cd /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/CMakeFiles/greeter_service.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/greeter_service.dir/depend
 

@@ -1011,8 +1011,8 @@ CMakeFiles/greeter_service.dir/main.cpp.o: \
   /opt/homebrew/include/grpcpp/security/authorization_policy_provider.h \
   /opt/homebrew/include/grpcpp/server_posix.h \
   /opt/homebrew/include/grpcpp/version_info.h \
-  /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/greeter_service.grpc.pb.h \
-  /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/greeter_service.pb.h \
+  /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/test/greeter_service.grpc.pb.h \
+  /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/test/greeter_service.pb.h \
   /opt/homebrew/include/google/protobuf/port_def.inc \
   /opt/homebrew/include/google/protobuf/port_undef.inc \
   /opt/homebrew/include/google/protobuf/io/coded_stream.h \

@@ -117,6 +117,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named greeter_service_lib
+
+# Build rule for target.
+greeter_service_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 greeter_service_lib
+.PHONY : greeter_service_lib
+
+# fast build rule for target.
+greeter_service_lib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_service_lib.dir/build.make CMakeFiles/greeter_service_lib.dir/build
+.PHONY : greeter_service_lib/fast
+
+#=============================================================================
+# Target rules for targets named greeter_service1_lib
+
+# Build rule for target.
+greeter_service1_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 greeter_service1_lib
+.PHONY : greeter_service1_lib
+
+# fast build rule for target.
+greeter_service1_lib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_service1_lib.dir/build.make CMakeFiles/greeter_service1_lib.dir/build
+.PHONY : greeter_service1_lib/fast
+
+#=============================================================================
+# Target rules for targets named greeter_service_objs
+
+# Build rule for target.
+greeter_service_objs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 greeter_service_objs
+.PHONY : greeter_service_objs
+
+# fast build rule for target.
+greeter_service_objs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_service_objs.dir/build.make CMakeFiles/greeter_service_objs.dir/build
+.PHONY : greeter_service_objs/fast
+
+#=============================================================================
 # Target rules for targets named greeter_service
 
 # Build rule for target.
@@ -134,7 +173,7 @@ greeter_service.o: greeter_service.cpp.o
 
 # target to build an object file
 greeter_service.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_service.dir/build.make CMakeFiles/greeter_service.dir/greeter_service.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_service_objs.dir/build.make CMakeFiles/greeter_service_objs.dir/greeter_service.cpp.o
 .PHONY : greeter_service.cpp.o
 
 greeter_service.i: greeter_service.cpp.i
@@ -142,7 +181,7 @@ greeter_service.i: greeter_service.cpp.i
 
 # target to preprocess a source file
 greeter_service.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_service.dir/build.make CMakeFiles/greeter_service.dir/greeter_service.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_service_objs.dir/build.make CMakeFiles/greeter_service_objs.dir/greeter_service.cpp.i
 .PHONY : greeter_service.cpp.i
 
 greeter_service.s: greeter_service.cpp.s
@@ -150,56 +189,56 @@ greeter_service.s: greeter_service.cpp.s
 
 # target to generate assembly for a file
 greeter_service.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_service.dir/build.make CMakeFiles/greeter_service.dir/greeter_service.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_service_objs.dir/build.make CMakeFiles/greeter_service_objs.dir/greeter_service.cpp.s
 .PHONY : greeter_service.cpp.s
 
-greeter_service.grpc.pb.o: greeter_service.grpc.pb.cc.o
-.PHONY : greeter_service.grpc.pb.o
+greeter_service1.grpc.pb.o: greeter_service1.grpc.pb.cc.o
+.PHONY : greeter_service1.grpc.pb.o
 
 # target to build an object file
-greeter_service.grpc.pb.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_service.dir/build.make CMakeFiles/greeter_service.dir/greeter_service.grpc.pb.cc.o
-.PHONY : greeter_service.grpc.pb.cc.o
+greeter_service1.grpc.pb.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_service1_lib.dir/build.make CMakeFiles/greeter_service1_lib.dir/greeter_service1.grpc.pb.cc.o
+.PHONY : greeter_service1.grpc.pb.cc.o
 
-greeter_service.grpc.pb.i: greeter_service.grpc.pb.cc.i
-.PHONY : greeter_service.grpc.pb.i
+greeter_service1.grpc.pb.i: greeter_service1.grpc.pb.cc.i
+.PHONY : greeter_service1.grpc.pb.i
 
 # target to preprocess a source file
-greeter_service.grpc.pb.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_service.dir/build.make CMakeFiles/greeter_service.dir/greeter_service.grpc.pb.cc.i
-.PHONY : greeter_service.grpc.pb.cc.i
+greeter_service1.grpc.pb.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_service1_lib.dir/build.make CMakeFiles/greeter_service1_lib.dir/greeter_service1.grpc.pb.cc.i
+.PHONY : greeter_service1.grpc.pb.cc.i
 
-greeter_service.grpc.pb.s: greeter_service.grpc.pb.cc.s
-.PHONY : greeter_service.grpc.pb.s
+greeter_service1.grpc.pb.s: greeter_service1.grpc.pb.cc.s
+.PHONY : greeter_service1.grpc.pb.s
 
 # target to generate assembly for a file
-greeter_service.grpc.pb.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_service.dir/build.make CMakeFiles/greeter_service.dir/greeter_service.grpc.pb.cc.s
-.PHONY : greeter_service.grpc.pb.cc.s
+greeter_service1.grpc.pb.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_service1_lib.dir/build.make CMakeFiles/greeter_service1_lib.dir/greeter_service1.grpc.pb.cc.s
+.PHONY : greeter_service1.grpc.pb.cc.s
 
-greeter_service.pb.o: greeter_service.pb.cc.o
-.PHONY : greeter_service.pb.o
+greeter_service1.pb.o: greeter_service1.pb.cc.o
+.PHONY : greeter_service1.pb.o
 
 # target to build an object file
-greeter_service.pb.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_service.dir/build.make CMakeFiles/greeter_service.dir/greeter_service.pb.cc.o
-.PHONY : greeter_service.pb.cc.o
+greeter_service1.pb.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_service1_lib.dir/build.make CMakeFiles/greeter_service1_lib.dir/greeter_service1.pb.cc.o
+.PHONY : greeter_service1.pb.cc.o
 
-greeter_service.pb.i: greeter_service.pb.cc.i
-.PHONY : greeter_service.pb.i
+greeter_service1.pb.i: greeter_service1.pb.cc.i
+.PHONY : greeter_service1.pb.i
 
 # target to preprocess a source file
-greeter_service.pb.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_service.dir/build.make CMakeFiles/greeter_service.dir/greeter_service.pb.cc.i
-.PHONY : greeter_service.pb.cc.i
+greeter_service1.pb.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_service1_lib.dir/build.make CMakeFiles/greeter_service1_lib.dir/greeter_service1.pb.cc.i
+.PHONY : greeter_service1.pb.cc.i
 
-greeter_service.pb.s: greeter_service.pb.cc.s
-.PHONY : greeter_service.pb.s
+greeter_service1.pb.s: greeter_service1.pb.cc.s
+.PHONY : greeter_service1.pb.s
 
 # target to generate assembly for a file
-greeter_service.pb.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_service.dir/build.make CMakeFiles/greeter_service.dir/greeter_service.pb.cc.s
-.PHONY : greeter_service.pb.cc.s
+greeter_service1.pb.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_service1_lib.dir/build.make CMakeFiles/greeter_service1_lib.dir/greeter_service1.pb.cc.s
+.PHONY : greeter_service1.pb.cc.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -225,6 +264,54 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_service.dir/build.make CMakeFiles/greeter_service.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+test/greeter_service.grpc.pb.o: test/greeter_service.grpc.pb.cc.o
+.PHONY : test/greeter_service.grpc.pb.o
+
+# target to build an object file
+test/greeter_service.grpc.pb.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_service_lib.dir/build.make CMakeFiles/greeter_service_lib.dir/test/greeter_service.grpc.pb.cc.o
+.PHONY : test/greeter_service.grpc.pb.cc.o
+
+test/greeter_service.grpc.pb.i: test/greeter_service.grpc.pb.cc.i
+.PHONY : test/greeter_service.grpc.pb.i
+
+# target to preprocess a source file
+test/greeter_service.grpc.pb.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_service_lib.dir/build.make CMakeFiles/greeter_service_lib.dir/test/greeter_service.grpc.pb.cc.i
+.PHONY : test/greeter_service.grpc.pb.cc.i
+
+test/greeter_service.grpc.pb.s: test/greeter_service.grpc.pb.cc.s
+.PHONY : test/greeter_service.grpc.pb.s
+
+# target to generate assembly for a file
+test/greeter_service.grpc.pb.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_service_lib.dir/build.make CMakeFiles/greeter_service_lib.dir/test/greeter_service.grpc.pb.cc.s
+.PHONY : test/greeter_service.grpc.pb.cc.s
+
+test/greeter_service.pb.o: test/greeter_service.pb.cc.o
+.PHONY : test/greeter_service.pb.o
+
+# target to build an object file
+test/greeter_service.pb.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_service_lib.dir/build.make CMakeFiles/greeter_service_lib.dir/test/greeter_service.pb.cc.o
+.PHONY : test/greeter_service.pb.cc.o
+
+test/greeter_service.pb.i: test/greeter_service.pb.cc.i
+.PHONY : test/greeter_service.pb.i
+
+# target to preprocess a source file
+test/greeter_service.pb.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_service_lib.dir/build.make CMakeFiles/greeter_service_lib.dir/test/greeter_service.pb.cc.i
+.PHONY : test/greeter_service.pb.cc.i
+
+test/greeter_service.pb.s: test/greeter_service.pb.cc.s
+.PHONY : test/greeter_service.pb.s
+
+# target to generate assembly for a file
+test/greeter_service.pb.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/greeter_service_lib.dir/build.make CMakeFiles/greeter_service_lib.dir/test/greeter_service.pb.cc.s
+.PHONY : test/greeter_service.pb.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -234,18 +321,27 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... greeter_service"
+	@echo "... greeter_service1_lib"
+	@echo "... greeter_service_lib"
+	@echo "... greeter_service_objs"
 	@echo "... greeter_service.o"
 	@echo "... greeter_service.i"
 	@echo "... greeter_service.s"
-	@echo "... greeter_service.grpc.pb.o"
-	@echo "... greeter_service.grpc.pb.i"
-	@echo "... greeter_service.grpc.pb.s"
-	@echo "... greeter_service.pb.o"
-	@echo "... greeter_service.pb.i"
-	@echo "... greeter_service.pb.s"
+	@echo "... greeter_service1.grpc.pb.o"
+	@echo "... greeter_service1.grpc.pb.i"
+	@echo "... greeter_service1.grpc.pb.s"
+	@echo "... greeter_service1.pb.o"
+	@echo "... greeter_service1.pb.i"
+	@echo "... greeter_service1.pb.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... test/greeter_service.grpc.pb.o"
+	@echo "... test/greeter_service.grpc.pb.i"
+	@echo "... test/greeter_service.grpc.pb.s"
+	@echo "... test/greeter_service.pb.o"
+	@echo "... test/greeter_service.pb.i"
+	@echo "... test/greeter_service.pb.s"
 .PHONY : help
 
 

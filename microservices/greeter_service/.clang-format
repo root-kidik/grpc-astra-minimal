@@ -95,7 +95,7 @@ MaxEmptyLinesToKeep: 2
 IncludeBlocks: Regroup
 IncludeCategories:
   - Priority: 1
-    Regex: '^<(grpc++|grpcpp|grpc++.h)'
+    Regex: '^<grpc(.+)>$'
   - Priority: 2
     Regex: '^<c(.+)>$'
   - Priority: 3

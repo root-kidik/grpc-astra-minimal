@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libgreeter_service1_lib.a CMakeFiles/greeter_service1_lib.dir/greeter_service1.pb.cc.o CMakeFiles/greeter_service1_lib.dir/greeter_service1.grpc.pb.cc.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libgreeter_service1_lib.a

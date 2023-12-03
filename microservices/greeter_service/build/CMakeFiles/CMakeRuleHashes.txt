@@ -1,2 +1,3 @@
 # Hashes of file build rules.
-b21e966ffcb0e67256a08e487e02c4ad greeter_service.pb.cc
+a7a9d24678ef77773ab60bc0cfa4ec69 greeter_service1.pb.h
+efb9a82dda4d7a3f3595ab422acad47e test/greeter_service.pb.h

@@ -1,6 +1,6 @@
-CMakeFiles/greeter_service.dir/greeter_service.grpc.pb.cc.o: \
-  /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/greeter_service.grpc.pb.cc \
-  /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/greeter_service.pb.h \
+CMakeFiles/greeter_service1_lib.dir/greeter_service1.pb.cc.o: \
+  /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/greeter_service1.pb.cc \
+  /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/greeter_service1.pb.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/limits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__config \
@@ -1068,94 +1068,7 @@ CMakeFiles/greeter_service.dir/greeter_service.grpc.pb.cc.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_types/_fsobj_id_t.h \
   /opt/homebrew/include/google/protobuf/map_type_handler.h \
   /opt/homebrew/include/google/protobuf/reflection.h \
-  /Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/greeter_service.grpc.pb.h \
-  /opt/homebrew/include/grpcpp/generic/async_generic_service.h \
-  /opt/homebrew/include/grpc/support/port_platform.h \
-  /opt/homebrew/include/grpcpp/impl/server_callback_handlers.h \
-  /opt/homebrew/include/grpc/grpc.h \
-  /opt/homebrew/include/grpc/byte_buffer.h \
-  /opt/homebrew/include/grpc/impl/grpc_types.h \
-  /opt/homebrew/include/grpc/impl/channel_arg_names.h \
-  /opt/homebrew/include/grpc/impl/compression_types.h \
-  /opt/homebrew/include/grpc/slice.h \
-  /opt/homebrew/include/grpc/impl/slice_type.h \
-  /opt/homebrew/include/grpc/support/sync.h \
-  /opt/homebrew/include/grpc/support/time.h \
-  /opt/homebrew/include/grpc/support/sync_generic.h \
-  /opt/homebrew/include/grpc/support/atm.h \
-  /opt/homebrew/include/grpc/support/atm_gcc_atomic.h \
-  /opt/homebrew/include/grpc/support/sync_posix.h \
-  /opt/homebrew/include/grpc/status.h \
-  /opt/homebrew/include/grpc/slice_buffer.h \
-  /opt/homebrew/include/grpc/impl/connectivity_state.h \
-  /opt/homebrew/include/grpc/impl/propagation_bits.h \
-  /opt/homebrew/include/grpc/support/log.h \
-  /opt/homebrew/include/grpcpp/impl/rpc_service_method.h \
-  /opt/homebrew/include/grpcpp/impl/rpc_method.h \
-  /opt/homebrew/include/grpcpp/impl/codegen/channel_interface.h \
-  /opt/homebrew/include/grpcpp/impl/channel_interface.h \
-  /opt/homebrew/include/grpcpp/impl/call.h \
-  /opt/homebrew/include/grpcpp/impl/call_hook.h \
-  /opt/homebrew/include/grpcpp/support/status.h \
-  /opt/homebrew/include/grpcpp/impl/status.h \
-  /opt/homebrew/include/grpcpp/support/config.h \
-  /opt/homebrew/include/grpcpp/support/status_code_enum.h \
-  /opt/homebrew/include/grpcpp/support/time.h \
-  /opt/homebrew/include/grpcpp/support/byte_buffer.h \
-  /opt/homebrew/include/grpcpp/impl/serialization_traits.h \
-  /opt/homebrew/include/grpcpp/support/slice.h \
-  /opt/homebrew/include/grpcpp/support/string_ref.h \
-  /opt/homebrew/include/grpcpp/server_context.h \
-  /opt/homebrew/include/grpcpp/impl/call_op_set.h \
-  /opt/homebrew/include/grpc/support/alloc.h \
-  /opt/homebrew/include/grpcpp/client_context.h \
-  /opt/homebrew/include/grpcpp/impl/create_auth_context.h \
-  /opt/homebrew/include/grpcpp/security/auth_context.h \
-  /opt/homebrew/include/grpcpp/impl/metadata_map.h \
-  /opt/homebrew/include/grpcpp/impl/sync.h \
-  /opt/homebrew/include/grpcpp/support/client_interceptor.h \
-  /opt/homebrew/include/grpcpp/support/interceptor.h \
-  /opt/homebrew/include/grpcpp/completion_queue.h \
-  /opt/homebrew/include/grpcpp/impl/codegen/rpc_service_method.h \
-  /opt/homebrew/include/grpcpp/impl/codegen/status.h \
-  /opt/homebrew/include/grpcpp/impl/codegen/sync.h \
-  /opt/homebrew/include/grpcpp/impl/codegen/time.h \
-  /opt/homebrew/include/grpcpp/impl/completion_queue_tag.h \
-  /opt/homebrew/include/grpcpp/impl/grpc_library.h \
-  /opt/homebrew/include/grpcpp/impl/codegen/config.h \
-  /opt/homebrew/include/grpcpp/impl/call_op_set_interface.h \
-  /opt/homebrew/include/grpcpp/impl/codegen/intercepted_channel.h \
-  /opt/homebrew/include/grpcpp/impl/intercepted_channel.h \
-  /opt/homebrew/include/grpcpp/impl/interceptor_common.h \
-  /opt/homebrew/include/grpcpp/support/server_interceptor.h \
-  /opt/homebrew/include/grpcpp/impl/codegen/create_auth_context.h \
-  /opt/homebrew/include/grpcpp/impl/codegen/metadata_map.h \
-  /opt/homebrew/include/grpcpp/support/callback_common.h \
-  /opt/homebrew/include/grpcpp/support/message_allocator.h \
-  /opt/homebrew/include/grpcpp/support/server_callback.h \
-  /opt/homebrew/include/grpcpp/support/async_stream.h \
-  /opt/homebrew/include/grpcpp/impl/service_type.h \
-  /opt/homebrew/include/grpcpp/server_interface.h \
-  /opt/homebrew/include/grpcpp/impl/codegen/interceptor_common.h \
-  /opt/homebrew/include/grpcpp/support/async_unary_call.h \
-  /opt/homebrew/include/grpcpp/support/client_callback.h \
-  /opt/homebrew/include/grpcpp/support/method_handler.h \
-  /opt/homebrew/include/grpcpp/support/sync_stream.h \
-  /opt/homebrew/include/grpcpp/impl/proto_utils.h \
-  /opt/homebrew/include/grpc/byte_buffer_reader.h \
-  /opt/homebrew/include/grpcpp/impl/codegen/config_protobuf.h \
-  /opt/homebrew/include/google/protobuf/descriptor.pb.h \
-  /opt/homebrew/include/google/protobuf/descriptor_database.h \
-  /opt/homebrew/include/google/protobuf/util/json_util.h \
-  /opt/homebrew/include/google/protobuf/json/json.h \
-  /opt/homebrew/include/absl/status/status.h \
-  /opt/homebrew/include/absl/status/internal/status_internal.h \
-  /opt/homebrew/include/google/protobuf/util/type_resolver.h \
-  /opt/homebrew/include/google/protobuf/type.pb.h \
-  /opt/homebrew/include/google/protobuf/any.pb.h \
-  /opt/homebrew/include/google/protobuf/source_context.pb.h \
-  /opt/homebrew/include/google/protobuf/util/type_resolver_util.h \
-  /opt/homebrew/include/grpcpp/support/proto_buffer_reader.h \
-  /opt/homebrew/include/grpcpp/support/proto_buffer_writer.h \
-  /opt/homebrew/include/grpcpp/support/stub_options.h \
-  /opt/homebrew/include/grpcpp/impl/client_unary_call.h
+  /opt/homebrew/include/google/protobuf/reflection_ops.h \
+  /opt/homebrew/include/google/protobuf/wire_format.h \
+  /opt/homebrew/include/google/protobuf/generated_message_tctable_impl.h \
+  /opt/homebrew/include/google/protobuf/raw_ptr.h
