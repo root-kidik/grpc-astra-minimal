@@ -1,6 +1,0 @@
-/Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/CMakeFiles/greeter_service_lib.dir
-/Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/CMakeFiles/greeter_service1_lib.dir
-/Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/CMakeFiles/greeter_service_objs.dir
-/Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/CMakeFiles/greeter_service.dir
-/Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/CMakeFiles/edit_cache.dir
-/Users/nikitatabakaev/Documents/grpc-astra-minimal/microservices/greeter_service/build/CMakeFiles/rebuild_cache.dir

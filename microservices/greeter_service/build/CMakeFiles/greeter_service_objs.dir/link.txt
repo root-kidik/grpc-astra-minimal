@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libgreeter_service_objs.a CMakeFiles/greeter_service_objs.dir/greeter_service.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libgreeter_service_objs.a

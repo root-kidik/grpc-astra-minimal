@@ -6,8 +6,8 @@ project(greeter_service)
 
 # Grpc, protobuf library
 include(../../cmake/GrpcTargets.cmake)
-add_grpc_library(${PROJECT_NAME}_proto PROTOS test/greeter_service.proto
-                 greeter_service1.proto)
+add_grpc_library(${PROJECT_NAME}_proto PROTOS greeter_service1.proto
+                 test/greeter_service.proto)
 
 # Service library
 add_library(${PROJECT_NAME}_objs greeter_service.hpp greeter_service.cpp)
